@@ -17,6 +17,3 @@ module.exports = (app) => {
 
     app.get('/auth/google/callback', passport.authenticate('google'));
 }
-
-
-mongodb + srv://sudipta:<password>@cluster0.z1nns.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
